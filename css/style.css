@@ -48,8 +48,6 @@ body {
 .header_list_link {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
-    serif,
-    ;
     font-size: 18px;
     padding: 20px;
 }
@@ -73,6 +71,7 @@ a {
 .sobre_foto {
     width: 300px;
     transform: rotate(270deg);
+    border: 1px solid #9B7997
 
 
 }
@@ -94,6 +93,7 @@ a {
 .experiencia_title {
     color: #5f3963;
     font-family: 'Playfair Display', serif;
+    font-size: 24px;
 }
 
 
@@ -116,8 +116,48 @@ a {
 }
 
 .textcard{
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
-    color: #3A5D66;
+    color: #231F20;
+}
+
+.contato {
+    background-color: #686363;
+    color: #eee8e8;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contato_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    font-size: 30px;
+}
+
+.contato_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #9B7997;
+    color: #eee8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.github, .linkedin, .instagram {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 24px;
 }
