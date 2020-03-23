@@ -1,8 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Playfair+Display+SC|Playfair+Display:400i|Raleway&display=swap');
+
+body {
+    background-color: #eee8e8;
+    font-family: 'Lora', serif;
+    color: #100F14
+}
+
 .header {
-    background-image: url('images/photo-1496715976403-7e36dc43f17b.webp');
-    
+    background: url(../buble.jpg) top center / 100% no-repeat;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+
+.header_text {
+    text-align: center;
+    padding: 100px;
+
+}
+
+.code_img {
+    width: 80px;
+}
+
+.header_title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 46px;
+    color: #5f3963;
+}
+
+.header_subtext {
+    font-family: 'Playfair Display', serif;
+    color: #5f3963;
+    font-size: 20px;
 }
 
 .header_navbar {
-    background-color: transparent;
-    color: #afb3f7;
+    background-color: #9B7997;
+    text-align: center;
+    list-style: none;
+}
+
+.header_list {
+    justify-content: flex-end;
+}
+
+.header_list_link {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    serif,
+    ;
+    font-size: 18px;
+    padding: 20px;
+}
+
+a {
+    /* color: #5f3963;*/
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-top: 80px;
+    height: 500px;
+}
+
+.sobre_foto {
+    width: 300px;
+    transform: rotate(270deg);
+
+
+}
+
+.sobre_text {
+    width: 500px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.experiencia {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+    /*background-color: #EABFCB;*/
+}
+.experiencia_title {
+    color: #5f3963;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.cards {
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    height: 160px;
+    width: 250px;
+    border-radius: 10%;
+    margin-top: 20px;
+    padding: 30px;
+    margin: 3%;
+
+}
+
+.textcard{
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: #3A5D66;
+}
