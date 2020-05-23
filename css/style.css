@@ -5,6 +5,9 @@ body {
     font-family: 'Lora', serif;
     color: #100F14
 }
+a:hover {
+    color: #686363;
+}
 
 .header {
     background-image: url("../buble.jpg");  background-position: center; /* Center the image */
@@ -17,7 +20,7 @@ body {
 
 .header_text {
     text-align: center;
-    padding: 100px;
+    margin-top: 70px;
 
 }
 
@@ -37,10 +40,9 @@ body {
     font-size: 20px;
 }
 
-.header_navbar {
+.bg-lilas {
     background-color: #9B7997;
-    text-align: center;
-    list-style: none;
+    
 }
 
 .header_list {
@@ -53,16 +55,29 @@ body {
     font-size: 18px;
     padding: 20px;
 }
+.carousel-item {
+    max-height: 500px;
+    height: 100%;
+}
 
-.hamburguer {
-    display: none;
+.img-car{
+    object-position: 50% 120%;
+    object-fit: fill;
+    
+}
+
+.text-black {
+    color: black;
 }
 
 a {
-    /* color: #5f3963;*/
-    color: #fff;
+    color: #5f3963;
     text-decoration: none;
     font-weight: 800;
+}
+
+.text-roxo {
+    color: #5f3963;
 }
 
 .sobre {
@@ -77,14 +92,19 @@ a {
 .sobre_foto {
     max-width: 300px;
     display: inline;
-    border: 1px solid #9B7997
+    border: 1px solid #9B7997;
 }
 
 .sobre_text {
-    max-width: 500px;
-    text-align: center;
-    font-size: 18px;
-    
+    max-width: 400px;  
+}
+
+.fab, .fas, .far {
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 20px;
 }
 
 .experiencia {
@@ -103,32 +123,25 @@ a {
 
 }
 
-
-.cards {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.card {
-    text-align: center;
-    height: 160px;
-    width: 250px;
-    border-radius: 10%;
-    margin-top: 20px;
-    padding: 30px;
-    margin: 3%;
+.card-img-top {
+    object-fit: fill;
+   height: 300px;
+   border-bottom: 1px solid rgb(216, 209, 209);
 
 }
 
-.textcard {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    color: #231F20;
+.btn-roxo {
+    color: #fff;
+    background-color: #686363;
 }
 
+.btn-roxo:hover {
+    color: beige;
+}
+
+.text-color {
+    color: #5f3963;
+}
 .contato {
     background-color: #686363;
     color: #eee8e8;
@@ -170,39 +183,4 @@ a {
     padding: 10px;
     margin-left: 20px;
     font-size: 24px;
-}
-
-@media only screen and (max-device-width: 600px) {
-    .header {
-        width: 100%;
-
-    }
-
-    .header_text {
-        padding: 50px;
-    }
-
-    .header_navbar{
-        display: none;
-    }
-
-    .hamburguer {
-        display: block;
-        width: 100%;
-        background-color: #9B7997;
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        padding: 20px;
-        text-align: center;
-        justify-content: flex-end;
-    }
-
-    .sobre {
-        display: inline-block;
-    }
-
-    .sobre_foto {
-        justify-content: center;
-    }
 }
