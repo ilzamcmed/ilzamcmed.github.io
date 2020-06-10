@@ -5,12 +5,19 @@ body {
     font-family: 'Lora', serif;
     color: #100F14
 }
+
+section {
+    padding-top: 20px;
+}
+
 a:hover {
     color: #686363;
 }
 
 .header {
-    background-image: url("../buble.jpg");  background-position: center; /* Center the image */
+    background-image: url("../buble.jpg");
+    background-position: center;
+    /* Center the image */
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -42,7 +49,7 @@ a:hover {
 
 .bg-lilas {
     background-color: #9B7997;
-    
+
 }
 
 .header_list {
@@ -55,15 +62,16 @@ a:hover {
     font-size: 18px;
     padding: 20px;
 }
+
 .carousel-item {
     max-height: 500px;
     height: 100%;
 }
 
-.img-car{
+.img-car {
     object-position: 50% 120%;
     object-fit: fill;
-    
+
 }
 
 .text-black {
@@ -81,7 +89,7 @@ a {
 }
 
 .sobre {
-   display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     padding-left: 8%;
@@ -96,10 +104,12 @@ a {
 }
 
 .sobre_text {
-    max-width: 400px;  
+    max-width: 400px;
 }
 
-.fab, .fas, .far {
+.fab,
+.fas,
+.far {
     font-size: 20px;
 }
 
@@ -125,14 +135,15 @@ a {
 
 .card-img-top {
     object-fit: fill;
-   height: 300px;
-   border-bottom: 1px solid rgb(216, 209, 209);
+    height: 300px;
+    border-bottom: 1px solid rgb(216, 209, 209);
 
 }
 
 .btn-roxo {
     color: #fff;
     background-color: #686363;
+    margin-top: 15px;
 }
 
 .btn-roxo:hover {
@@ -142,6 +153,7 @@ a {
 .text-color {
     color: #5f3963;
 }
+
 .contato {
     background-color: #686363;
     color: #eee8e8;
@@ -177,10 +189,14 @@ a {
     height: 70px;
 }
 
+.footer .fab {
+    font-size: 30px;
+}
+
+
 .github,
 .linkedin,
 .instagram {
     padding: 10px;
     margin-left: 20px;
-    font-size: 24px;
 }
